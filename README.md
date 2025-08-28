@@ -1,22 +1,22 @@
 # MoveBudget API
 
-API desenvolvida em .NET 8 para gerenciamento de despesas pessoais, com autenticação JWT e suporte a múltiplos usuários.  
-Este projeto faz parte do meu portfólio e tem como objetivo demonstrar boas práticas em arquitetura de APIs REST.
+API developed in .NET 8 for personal expense management, with JWT authentication and multi-user support.  
+This project is part of my portfolio and aims to demonstrate best practices in REST API architecture.
 
 ---
 
-## Funcionalidades
+## Features
 
-- CRUD de despesas (`Create, Read, Update, Delete`)
-- Autenticação com JWT + Refresh Token
-- Organização de despesas por categorias
-- Registro de data, valor e moeda
-- Estrutura preparada para integração futura com API de câmbio
-- Persistência em banco de dados (SQLite na versão de testes)
+- Expense CRUD (`Create, Read, Update, Delete`)
+- JWT Authentication with Refresh Token
+- Expense categorization
+- Date, amount, and currency tracking
+- Structure prepared for future integration with a currency exchange API
+- Database persistence (SQLite in dev environment)
 
 ---
 
-## Tecnologias Utilizadas
+## Technologies Used
 
 - **.NET 8**  
 - **Entity Framework Core**  
@@ -26,14 +26,10 @@ Este projeto faz parte do meu portfólio e tem como objetivo demonstrar boas pr�
 
 ---
 
-## Próximos Passos
+## Next Steps
 
-✅ CRUD completo de despesas
-
-✅ Implementar autenticação JWT com Refresh Token
-
-🔲 Testes unitários com xUnit
-
-🔲 Deploy em Azure App Service
-
-🔲 Integração com API de câmbio para conversão automática
+✅ Complete Expense CRUD  
+✅ Implement JWT authentication with Refresh Token  
+🔲 Unit testing with xUnit  
+🔲 Deploy to Azure App Service  
+🔲 Integration with a currency exchange API for automatic conversion  
