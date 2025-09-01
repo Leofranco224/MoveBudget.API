@@ -1,6 +1,6 @@
 # MoveBudget API
 
-API developed in .NET 8 for personal expense management, with JWT authentication and multi-user support.  
+API developed in .NET 9 for personal expense management, with JWT authentication and multi-user support.  
 This project is part of my portfolio and aims to demonstrate best practices in REST API architecture.
 
 ---
