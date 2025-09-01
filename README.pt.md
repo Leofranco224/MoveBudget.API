@@ -18,7 +18,7 @@ Este projeto faz parte do meu portf√≥lio e tem como objetivo demonstrar boas pr√
 
 ## Tecnologias Utilizadas
 
-- **.NET 8**  
+- **.NET 9**  
 - **Entity Framework Core**  
 - **SQLite** (dev)  
 - **JWT Authentication**  
