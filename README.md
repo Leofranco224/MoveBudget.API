@@ -18,7 +18,7 @@ This project is part of my portfolio and aims to demonstrate best practices in R
 
 ## Technologies Used
 
-- **.NET 8**  
+- **.NET 9**  
 - **Entity Framework Core**  
 - **SQLite** (dev)  
 - **JWT Authentication**  
