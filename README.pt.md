@@ -1,6 +1,6 @@
 # MoveBudget API
 
-API desenvolvida em .NET 9 para gerenciamento de despesas pessoais, com autenticação JWT e suporte a múltiplos usuários.  
+API desenvolvida em .NET 8 para gerenciamento de despesas pessoais, com autenticação JWT e suporte a múltiplos usuários.  
 Este projeto faz parte do meu portfólio e tem como objetivo demonstrar boas práticas em arquitetura de APIs REST.
 
 ---
@@ -18,7 +18,7 @@ Este projeto faz parte do meu portfólio e tem como objetivo demonstrar boas pr�
 
 ## Tecnologias Utilizadas
 
-- **.NET 9**  
+- **.NET 8**  
 - **Entity Framework Core**  
 - **SQLite** (dev)  
 - **JWT Authentication**  
