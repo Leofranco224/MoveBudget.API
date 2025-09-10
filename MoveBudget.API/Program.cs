@@ -1,8 +1,9 @@
 using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using Microsoft.OpenApi.Models;
 using MoveBudget.API.Data;
-using Microsoft.EntityFrameworkCore;
+using MoveBudget.API.Services;
 using System.Text;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -52,7 +53,8 @@ builder.Services.AddAuthentication(options =>
 builder.Services.AddDbContext<AppDbContext>(options =>
     options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection")));
 
-builder.Services.AddScoped<MoveBudget.API.Services.AuthService>();
+builder.Services.AddScoped<AuthService>();
+builder.Services.AddHttpClient<CurrencyConversionService>();
 builder.Services.AddControllers();
 
 // Swagger

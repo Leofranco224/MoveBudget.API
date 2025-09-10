@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using MoveBudget.API.Data;
 using MoveBudget.API.Models;
+using MoveBudget.API.Services;
 using System.Security.Claims;
 
 [Authorize]
@@ -207,5 +208,26 @@ public class ExpenseController : ControllerBase
         await _context.SaveChangesAsync();
 
         return NoContent();
+    }
+
+    /// <summary>
+    /// Converte um valor entre duas moedas usando a API externa.
+    /// </summary>
+    /// <param name="from">Moeda de origem (ex: USD).</param>
+    /// <param name="to">Moeda de destino (ex: EUR).</param>
+    /// <param name="amount">Valor a ser convertido.</param>
+    /// <returns>Valor convertido na moeda de destino.</returns>
+    /// <response code="200">Conversão realizada com sucesso.</response>
+    /// <response code="400">Erro ao realizar a conversão.</response>
+    [HttpGet("convert")]
+    public async Task<ActionResult<ApiResponse<decimal>>> ConvertCurrency(
+        [FromServices] CurrencyConversionService conversionService,
+        string from, string to, decimal amount)
+    {
+        var result = await conversionService.ConvertAsync(from, to, amount);
+        if (result == null)
+            return BadRequest(ApiResponse<decimal>.Fail("Não foi possível realizar a conversão."));
+
+        return Ok(ApiResponse<decimal>.Ok(result.Value));
     }
 }
