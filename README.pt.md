@@ -30,6 +30,6 @@ Este projeto faz parte do meu portfólio e tem como objetivo demonstrar boas pr�
 
 ✅ CRUD completo de despesas  
 ✅ Implementar autenticação JWT com Refresh Token  
-🔲 Testes unitários com xUnit  
+✅ Testes unitários com xUnit  
+✅ Integração com API de câmbio para conversão automática  
 🔲 Deploy em Azure App Service  
-🔲 Integração com API de câmbio para conversão automática  
