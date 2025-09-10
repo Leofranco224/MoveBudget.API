@@ -30,6 +30,6 @@ This project is part of my portfolio and aims to demonstrate best practices in R
 
 ✅ Complete Expense CRUD  
 ✅ Implement JWT authentication with Refresh Token  
-🔲 Unit testing with xUnit  
+✅ Unit testing with xUnit  
+✅ Integration with a currency exchange API for automatic conversion  
 🔲 Deploy to Azure App Service  
-🔲 Integration with a currency exchange API for automatic conversion  
