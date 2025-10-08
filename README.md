@@ -11,7 +11,7 @@ This project is part of my portfolio and aims to demonstrate best practices in R
 - JWT Authentication with Refresh Token
 - Expense categorization
 - Date, amount, and currency tracking
-- Structure prepared for future integration with a currency exchange API
+- Integration with a currency exchange API
 - Database persistence (SQLite in dev environment)
 
 ---
