@@ -13,7 +13,6 @@ This project is part of my portfolio and aims to demonstrate best practices in R
 - Date, amount, and currency tracking
 - Integration with a currency exchange API
 - Database persistence (SQLite in dev environment)
-
 ---
 
 ## Technologies Used
@@ -23,7 +22,6 @@ This project is part of my portfolio and aims to demonstrate best practices in R
 - **SQLite** (dev)  
 - **JWT Authentication**  
 - **Swagger / OpenAPI**
-
 ---
 
 ## Next Steps
@@ -31,5 +29,4 @@ This project is part of my portfolio and aims to demonstrate best practices in R
 ✅ Complete Expense CRUD  
 ✅ Implement JWT authentication with Refresh Token  
 ✅ Unit testing with xUnit  
-✅ Integration with a currency exchange API for automatic conversion  
-🔲 Deploy to Azure App Service  
+✅ Integration with a currency exchange API for automatic conversion
