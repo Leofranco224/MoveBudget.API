@@ -12,18 +12,16 @@ Este projeto faz parte do meu portfólio e tem como objetivo demonstrar boas pr�
 - Organização de despesas por categorias
 - Registro de data, valor e moeda
 - Estrutura preparada para integração futura com API de câmbio
-- Persistência em banco de dados (SQLite na versão de testes)
-
+- Persistência em banco de dados (SQLite na versão de testes
 ---
 
 ## Tecnologias Utilizadas
 
 - **.NET 8**  
 - **Entity Framework Core**  
-- **SQLite** (dev)  
+- **SQLite**
 - **JWT Authentication**  
 - **Swagger / OpenAPI**
-
 ---
 
 ## Próximos Passos
@@ -31,5 +29,4 @@ Este projeto faz parte do meu portfólio e tem como objetivo demonstrar boas pr�
 ✅ CRUD completo de despesas  
 ✅ Implementar autenticação JWT com Refresh Token  
 ✅ Testes unitários com xUnit  
-✅ Integração com API de câmbio para conversão automática  
-🔲 Deploy em Azure App Service  
+✅ Integração com API de câmbio para conversão automática
